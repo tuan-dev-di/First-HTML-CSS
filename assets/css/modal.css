@@ -1,0 +1,117 @@
+/* CSS - Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-container {
+    background: #fff;
+    width: 700px;
+    max-width: calc(100% - 28px);
+    min-height: 200px;
+    position: relative;
+    animation: modalOpen ease 0.6s;
+}
+
+.modal-header {
+    font-size: 34px;
+    background: #ccc;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    margin-left: 16px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    background: rgb(119, 118, 118);
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    /* margin: 10px 0; */
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+#play-overwatch {
+    background: rgb(119, 118, 118);
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+#play-overwatch:hover {
+    /* opacity: 1; */
+    background: #ccc;
+    font-weight: 700;
+    color: #333;
+}
+
+#play-overwatch .btn-play {
+    letter-spacing: 1px;
+}
+
+.modal-footer {
+    padding: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.modal-footer a {
+    color: blue;
+}
+
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+        transform: translateY(-130px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

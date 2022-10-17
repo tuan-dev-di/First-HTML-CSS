@@ -1,0 +1,28 @@
+/* CSS - Footer */
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(172, 86, 163);
+    text-decoration: none;
+}
+
+.social-list {
+    margin: 28px 0;
+}
+
+.social-list i[class*="ti-"] {
+    display: inline-block;
+    width: 48px;
+}
+
+.copyright a,
+.social-list a {
+    color: rgb(172, 86, 163);
+    text-decoration: none;
+}
+
+.copyright a:hover,
+.social-list a:hover {
+    color: #000;
+}

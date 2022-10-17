@@ -1,0 +1,18 @@
+/* CSS - Slider */
+#slider {
+    margin-top: 60px;
+    width: 100%;
+    /* width: calc(100% / 1); */
+    /* height: 700px; */
+    /* background: url(https://cdna.artstation.com/p/assets/images/images/029/238/608/large/flower-xl-888.jpg?1596892261),
+        top center / cover; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider .slider-img img {
+    width: 100%;
+    background-repeat: no-repeat;
+}

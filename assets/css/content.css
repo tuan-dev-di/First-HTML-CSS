@@ -1,0 +1,135 @@
+/* CSS - Content */
+#content {
+}
+
+/* Common ----- Content Heading and Sub-Heading */
+#content .content-heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
+    background: linear-gradient(to right, #f79eff 40%, #4c197b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content .content-heading:hover {
+    background: linear-gradient(to left, #4c197b 5%, #f79eff 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content .content-sub-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/* Private ----- Content of About Section */
+#content .content-about {
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+    font-size: 18px;
+}
+
+#content .member-list {
+    margin-top: 30px;
+}
+
+#content .member-name {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    background: linear-gradient(to right, #3b9595 50%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+#content .member-name:hover {
+    background: linear-gradient(to left, #3b9595 50%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#content .member-img {
+    width: 210px;
+    height: 258px;
+    border-radius: 15px;
+    padding: 0 8px;
+}
+
+/* Private ----- Content of Event Section */
+.event-list {
+    margin-top: 30px;
+}
+
+.event-img {
+    width: 420px;
+    height: 264px;
+    border-radius: 15px;
+    padding: 0 8px;
+    display: block;
+}
+
+.event-img:hover {
+    opacity: 0.8;
+}
+
+.event-info {
+    padding: 0px 8px;
+    margin: 10px 4px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.event-heading {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.event-time {
+    opacity: 0.6;
+}
+
+.event-desc {
+    line-height: 1.6;
+}
+
+/* Private ----- Content of Contact Section */
+.contact-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+}
+
+.contact-info i[class*="ti-"] {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Private ----- Content of Location Section */
+.location-section img {
+    width: 100%;
+}
